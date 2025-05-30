@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: mozambique
+  adjective: mozambican
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -79,10 +79,9 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: exportar para excel
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      exportar todos os objectivos em formato xml .
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
@@ -145,7 +144,8 @@ languages:
   - en
   - es
 languages_public: []
-logos: []
+logos: [- src: assets/img/uem1.png
+    alt: UEM logo]
 map_layers: []
 map_options:
   disaggregation_controls: false
@@ -197,10 +197,10 @@ menu:
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
-  - scope: national
+  - scope: Departamento
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: global
+  - scope: UEM
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
   - scope: sources
