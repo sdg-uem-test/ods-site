@@ -79,12 +79,11 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: Exportar em para excel
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+    exporte para formato .xlsx ou .xls todos os objectivos de desenvolvimento sustentaveis.
     include: ''
-    button_label: Read more
+    button_label: baixar
     button_link: 'https://example.com'
     rule_color: ''
   - title: Nam vestibulum
@@ -145,7 +144,9 @@ languages:
   - en
   - es
 languages_public: []
-logos: []
+logos:
+  - src: assets/img/uem1.png
+    alt: Logotipo da uem
 map_layers: []
 map_options:
   disaggregation_controls: false
