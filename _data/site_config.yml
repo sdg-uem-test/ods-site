@@ -145,7 +145,7 @@ languages:
   - es
 languages_public: []
 logos:
-  - src: assets/img/my-other-image-file.png
+  - src: assets/img/uem1.png
     alt: My other alt text
 map_layers: []
 map_options:
