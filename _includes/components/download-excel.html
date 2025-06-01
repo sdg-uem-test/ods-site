@@ -1,0 +1,14 @@
+<div class="excel-download-container">
+  <a href="{{ page.remote_data_prefix }}/scripts/excel/sdg-data-formatado.xlsx"
+     role="button"
+     class="btn btn-primary btn-download" aria-describedby="excel-download-info">
+    {{ page.t.frontpage.download_excel }}
+  </a>
+  <div id="excel-download-info">
+    {{ page.t.frontpage.file_size }}: {{ site.data.excel.size_human | default: 'Unknown' }}
+    {% if site.data.excel.timestamp %}
+      <br>
+      {{ page.t.metadata_fields.national_data_update_url }} - {{ site.data.excel.timestamp | t_date: 'standard' }}
+    {% endif %}
+  </div>
+</div>
