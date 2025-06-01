@@ -83,9 +83,9 @@ frontpage_cards:
     content: |
       Exporte todos os objetivos de desenvolvimento sustentáveis 
       para o formato Excel (.xlsx ou .xls).
-    include: ''
+    include: '_includes/components/download-excel-data.html'
     button_label: Baixar
-    button_link: 'https://example.com'
+    button_link: ''
     rule_color: ''
   - title: Nam vestibulum
     content: |
