@@ -85,7 +85,7 @@ frontpage_cards:
       para o formato Excel (.xlsx ou .xls).
     include: 'components/download-excel.html'
     button_label: Baixar
-    button_link: 'https://example.com'
+    button_link: ''
     rule_color: ''
   - title: Nam vestibulum
     content: |
