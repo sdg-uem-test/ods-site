@@ -111,7 +111,7 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_list: []
 graph_color_number: 0
 graph_color_set: accessible
-graph_title_from_series: false
+graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
@@ -138,8 +138,8 @@ indicator_metadata_form:
   translated: false
 indicator_tabs:
   tab_1: chart
-  tab_2: map
-  tab_3: table
+  tab_2: table
+  tab_3: map
   tab_4: ''
 languages:
   - en
