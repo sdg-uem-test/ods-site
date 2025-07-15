@@ -72,6 +72,8 @@ footer_menu:
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+  - path: 'https://facebook.com/MyFacebookAccount'
+    translation_key: facebook
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
@@ -255,7 +257,7 @@ time_series_attributes:
     label: indicator.footnote
   - field: DATA_LAST_UPDATE
     label: metadata_fields.national_data_update_url
-use_new_config_forms: true
+use_new_config_forms: false
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
