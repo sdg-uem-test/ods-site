@@ -1,4 +1,4 @@
-analytics:
+﻿analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -83,7 +83,7 @@ frontpage_cards:
     content: |
       Exporte todos os objetivos de desenvolvimento sustentáveis 
       para o formato Excel (.xlsx ou .xls).
-    include: 'components/download-excel.html'
+    include: components/download-excel.html
     button_label: Baixar
     button_link: ''
     rule_color: ''
@@ -146,7 +146,8 @@ languages:
   - es
 languages_public: []
 logos:
-  - src: assets/img/uem1.png
+  - language: ''
+    src: assets/img/uem1.png
     alt: Logotipo da UEM
 map_layers: []
 map_options:
